@@ -1,0 +1,10 @@
+
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  padding-left: clamp(10%, 10vw, 30%);
+  padding-right: clamp(10%, 10vw, 30%);
+
+}

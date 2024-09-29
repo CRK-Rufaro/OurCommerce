@@ -1,0 +1,39 @@
+.announcement-bar {
+    background-color: black; 
+    color: white; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: clamp(10%, 10vw, 30%);  
+    padding-right: clamp(10%, 10vw, 30%);  
+    width: 100%;
+    position: relative; 
+    box-sizing: border-box; 
+    
+    span {
+        flex: 1;
+        text-align: center; 
+    }
+
+    .time {
+        text-align: left; 
+    }
+
+    .address {
+        text-align: center; 
+    }
+
+    .phone {
+        text-align: right; 
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column; 
+        span {
+            margin: 5px 0;
+            text-align: center; 
+        }
+    }
+}

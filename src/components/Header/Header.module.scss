@@ -1,0 +1,21 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: clamp(10%, 10vw, 30%);
+    padding-right: clamp(10%, 10vw, 30%);
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 100%; 
+    box-sizing: border-box;
+
+    .logo {
+       
+        height: 50px; 
+        width: auto; 
+    }
+
+
+}

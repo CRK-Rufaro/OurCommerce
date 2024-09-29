@@ -1,0 +1,11 @@
+.banner{
+    position: relative;
+    margin-left: clamp(10%, 10vw, 30%);
+    margin-right: clamp(10%, 10vw, 30%);
+    
+}
+.banner-video {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
