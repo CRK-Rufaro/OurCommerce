@@ -7,6 +7,7 @@ export const Header: FunctionComponent = () => {
   return (
     <header className={classes.Header}>
       <img className={classes.logo} src="./src/assets/ourcommerce_logo.svg" alt="OurCommerce Logo" />
+      <span className={classes.text}>Our Commerce</span>
       <div className={classes.shoppingCart}>
         <Cart/>
       </div>

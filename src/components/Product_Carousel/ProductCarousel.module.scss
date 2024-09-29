@@ -15,32 +15,15 @@
     scroll-behavior: smooth;
     gap: 20px;
     padding: 20px;
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
-    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
   }
   
   .carousel::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+    display: none;
   }
   
-//   .productCard {
-//     min-width: 200px;
-//     max-width: 200px;
-//     background-color: white;
-//     border-radius: 8px;
-//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-//     text-align: center;
-//   }
-  
-//   .productImage {
-//     width: 100%;
-//     height: auto;
-//     border-bottom: 1px solid #ddd;
-//   }
-  
-//   .productInfo {
-//     padding: 10px;
-//   }
+
   
   .navButton {
     background-color: transparent;

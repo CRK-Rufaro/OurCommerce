@@ -126,12 +126,12 @@
     margin-left: 10px;
 
     .actionIcon {
-      width: 1rem; // Set a width for the icons
-      height: 1rem; // Set a height for the icons
-      // cursor: pointer; // Change cursor on hover
-      transition: transform 0.2s; // Smooth scaling effect
+      width: 1rem; 
+      height: 1rem; 
+      
+      transition: transform 0.2s; 
       fill: rgba(192, 192, 192, 0.27);
-      // background: rgba(192, 192, 192, 0.27);
+      
       padding-left: 10px;
       padding-right: 10px;
       border: none;
@@ -151,10 +151,6 @@
         ;
         color: #928e8e;
       }
-  
-      // &:hover {
-      //   transform: scale(1.1); // Slightly increase size on hover
-      // }
 
     }
 
